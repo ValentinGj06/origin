@@ -1,0 +1,151 @@
+.selectMultiple ul {
+    z-index: 1001;
+}
+.selectMultiple div {
+    max-height: 80px; /*or 44px*/
+    overflow: auto;
+}
+
+#dropdown-filter .dropdown-menu {
+    padding: 35px 50px;
+    min-width: 35rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c8ced3;
+    border-radius: 1rem;
+}
+
+.irs--round.irs-with-grid {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.float-right .badge {
+    font-size: 100%;
+}
+
+#filter_message {
+    font-size: 19px;
+}
+
+.search-input {
+    position: relative;
+    z-index: 2;
+    padding: 0 0 0 5px;
+    text-align: left !important;
+    border-radius: 10px !important;
+    border: 0;
+    background: #fff;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0 4px 16px 0 rgba(22, 42, 90, 0.22);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-input::placeholder {
+    color: #99A3BA;
+}
+
+input:focus {
+    outline: none !important;
+    border: 0;
+
+}
+
+.search-input:focus {
+    outline: none !important;
+    border: 0 !important;
+    box-shadow: -1px 5px 8px 0 rgba(22, 42, 90, 0.22);
+
+}
+
+span svg * {
+    transition: .15s cubic-bezier(0.35, 0.35, 0, 1.0);
+}
+
+span circle {
+    will-change: transform;
+}
+
+span rect {
+    transform-origin: 50% 50%;
+}
+
+span:hover .fltr-crcl1 {
+    transform: translateX(6px)
+}
+
+span:hover .fltr-crcl2 {
+    transform: translateX(-6px)
+}
+
+span {
+    opacity: 1
+}
+
+span .circle {
+    opacity: 0;
+}
+
+span .x-line1 {
+    transform: rotate(45deg) translateY(5.5px);
+}
+
+span .x-line2 {
+    transform: rotate(-45deg) translateY(-4.5px);
+}
+
+.modal label {
+    color: #89999b;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#allCategories {
+    max-height: 150px;
+    overflow: auto;
+}
+
+#tag-badge #category-badge {
+    font-size: 13px;
+}
+.table-info thead {
+    background: cadetblue;
+}
+.bootstrap-select > .btn {
+    vertical-align: middle;
+    text-align: center;
+    /*background-color: #fff;*/
+    background-clip: padding-box;
+    border: 1px solid #c8ced3;
+    border-radius: 0.5rem;
+    height: 44px;
+    box-shadow: 0 4px 16px 0 rgba(22, 42, 90, 0.22);
+    transition: box-shadow 0.3s ease;
+    line-height: 28px;
+}
+
+#view-modal > #tags, #categories {
+    max-height: 150px;
+    overflow: auto;
+}
+#view-modal > #categories {
+    max-height: 150px;
+    overflow: auto;
+}
+
+.input-group-text {
+    background: #2fb3e2 !important;
+}
+.show-filters {
+    cursor: pointer;    
+}
+
+.filter-text {
+    color: darkblue;
+    font-size: medium;
+    font-weight: 500;
+}
+
+#filter_message span {
+    margin-bottom: 5px;
+}

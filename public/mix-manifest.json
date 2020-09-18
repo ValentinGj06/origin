@@ -1,0 +1,14 @@
+{
+    "/js/backend.js": "/js/backend.js",
+    "/js/clients.js": "/js/clients.js",
+    "/js/frontend.js": "/js/frontend.js",
+    "/css/frontend.css": "/css/frontend.css",
+    "/css/multiselect.css": "/css/multiselect.css",
+    "/css/clients.css": "/css/clients.css",
+    "/css/backend.css": "/css/backend.css",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/multiselect.js": "/js/multiselect.js",
+    "/js/pdf-table-auto.js": "/js/pdf-table-auto.js",
+    "/js/table-export.js": "/js/table-export.js",
+    "/js/vendor.js": "/js/vendor.js"
+}
